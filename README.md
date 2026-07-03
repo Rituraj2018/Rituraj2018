@@ -42,16 +42,7 @@
 
 <br/>
 
-## 🧑‍💻 About Me
 
-```yaml
-name: "Rituraj Singh"
-role: "Full Stack MERN Developer"
-current_focus: "Building scalable MERN Stack applications"
-current_project: "E-Mart — Full Stack MERN Ecommerce Website"
-learning: ["TypeScript", "Next.js", "Docker", "System Design"]
-philosophy: "Clean code, clean UI, and continuous growth"
-```
 
 - 🚀 Passionate about turning ideas into fast, scalable full-stack applications
 - 🛠️ Specializing in the **MERN Stack** — MongoDB, Express, React, Node.js
@@ -64,29 +55,59 @@ philosophy: "Clean code, clean UI, and continuous growth"
 
 ## ⚡ Tech Stack
 
+## 🛠️ Tech Stack & Tools
+
 <div align="center">
 
-### 🎨 Frontend
-<img src="https://skillicons.dev/icons?i=react,redux,html,css,js,ts,tailwind,bootstrap" />
+### 🎨 Frontend Development
 
-### ⚙️ Backend
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
-<br/>
-<img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,redux,nextjs,tailwind,bootstrap" />
+</p>
+
+---
+
+### ⚙️ Backend Development
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT_Authentication-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+</p>
+
+---
 
 ### 🗄️ Database
-<img src="https://skillicons.dev/icons?i=mongodb" />
 
-### 🧰 Tools
-<img src="https://skillicons.dev/icons?i=git,github,postman,vscode,docker" />
-<br/>
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB_Compass-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb" />
+</p>
+
+---
+
+### ☁️ Cloud & Deployment
+
+<p>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
+</p>
+
+---
+
+### 🧰 Development Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,figma" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB_Compass-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+</p>
 
 </div>
 
