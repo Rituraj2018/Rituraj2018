@@ -6,10 +6,9 @@
 <img src="./assets/banner.svg" width="100%" alt="Rituraj Singh banner"/>
 
 <br/>
-
 <!-- TYPING ANIMATION -->
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00C9FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Full+Stack+Developer;MERN+Stack+Developer;React+Developer;Node.js+Developer;Open+Source+Learner;Always+Learning+New+Technologies" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=FF00FF&background=00000000&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Full+Stack+Developer;MERN+Stack+Developer;React+Developer;Node.js+Developer;Open+Source+Learner;Always+Learning+New+Technologies" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -44,16 +43,6 @@
 
 <br/>
 
-## 🧑‍💻 About Me
-
-```yaml
-name: "Rituraj Singh"
-role: "Full Stack MERN Developer"
-current_focus: "Building scalable MERN Stack applications"
-current_project: "E-Mart — Full Stack MERN Ecommerce Website"
-learning: ["TypeScript", "Next.js", "Docker", "System Design"]
-philosophy: "Clean code, clean UI, and continuous growth"
-```
 
 - 🚀 Passionate about turning ideas into fast, scalable full-stack applications
 - 🛠️ Specializing in the **MERN Stack** — MongoDB, Express, React, Node.js
