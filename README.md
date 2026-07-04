@@ -1,212 +1,228 @@
-<div align="center">
+<svg width="100%" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c9ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#92fe9d" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
 
-<!-- ANIMATED PARTICLE-NETWORK BANNER -->
-<!-- Upload banner.svg to your profile repo (e.g. assets/banner.svg), then swap the src below
-     for: https://raw.githubusercontent.com/Rituraj2018/Rituraj2018/main/assets/banner.svg -->
-<img width="100%" src="assets/banner.svg" alt="Rituraj Singh banner"/>
+  <rect width="1200" height="300" fill="url(#bgGrad)" rx="18"/>
+  <line x1="683" y1="97" x2="651" y2="112" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.54s" begin="1.28s" repeatCount="indefinite"/>
+  </line>
+  <line x1="683" y1="97" x2="768" y2="49" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.44s" begin="1.76s" repeatCount="indefinite"/>
+  </line>
+  <line x1="828" y1="44" x2="832" y2="45" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.86s" begin="0.9s" repeatCount="indefinite"/>
+  </line>
+  <line x1="828" y1="44" x2="782" y2="69" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.88s" begin="2.1s" repeatCount="indefinite"/>
+  </line>
+  <line x1="168" y1="68" x2="141" y2="83" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.23s" begin="1.72s" repeatCount="indefinite"/>
+  </line>
+  <line x1="168" y1="68" x2="96" y2="64" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.08s" begin="2.63s" repeatCount="indefinite"/>
+  </line>
+  <line x1="768" y1="49" x2="782" y2="69" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.69s" begin="0.86s" repeatCount="indefinite"/>
+  </line>
+  <line x1="828" y1="44" x2="768" y2="49" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="6.44s" begin="0.35s" repeatCount="indefinite"/>
+  </line>
+  <line x1="1059" y1="129" x2="1160" y2="88" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.75s" begin="2.27s" repeatCount="indefinite"/>
+  </line>
+  <line x1="1059" y1="129" x2="1141" y2="52" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="3.96s" begin="1.47s" repeatCount="indefinite"/>
+  </line>
+  <line x1="96" y1="64" x2="141" y2="83" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="3.62s" begin="2.0s" repeatCount="indefinite"/>
+  </line>
+  <line x1="1059" y1="129" x2="908" y2="234" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.79s" begin="1.72s" repeatCount="indefinite"/>
+  </line>
+  <line x1="908" y1="234" x2="832" y2="45" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="6.13s" begin="0.94s" repeatCount="indefinite"/>
+  </line>
+  <line x1="163" y1="143" x2="141" y2="83" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.59s" begin="1.78s" repeatCount="indefinite"/>
+  </line>
+  <line x1="163" y1="143" x2="231" y2="116" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.24s" begin="1.37s" repeatCount="indefinite"/>
+  </line>
+  <line x1="163" y1="143" x2="205" y2="237" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="6.02s" begin="2.83s" repeatCount="indefinite"/>
+  </line>
+  <line x1="205" y1="237" x2="231" y2="116" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.92s" begin="1.99s" repeatCount="indefinite"/>
+  </line>
+  <line x1="477" y1="51" x2="472" y2="43" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="3.68s" begin="2.1s" repeatCount="indefinite"/>
+  </line>
+  <line x1="477" y1="51" x2="315" y2="80" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.44s" begin="2.98s" repeatCount="indefinite"/>
+  </line>
+  <line x1="832" y1="45" x2="782" y2="69" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.97s" begin="0.85s" repeatCount="indefinite"/>
+  </line>
+  <line x1="472" y1="43" x2="315" y2="80" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.66s" begin="2.01s" repeatCount="indefinite"/>
+  </line>
+  <line x1="1160" y1="88" x2="1141" y2="52" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="3.57s" begin="1.39s" repeatCount="indefinite"/>
+  </line>
+  <line x1="1160" y1="88" x2="1175" y2="50" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.0s" begin="0.35s" repeatCount="indefinite"/>
+  </line>
+  <line x1="613" y1="234" x2="651" y2="112" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="3.68s" begin="2.3s" repeatCount="indefinite"/>
+  </line>
+  <line x1="683" y1="97" x2="613" y2="234" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="3.89s" begin="0.74s" repeatCount="indefinite"/>
+  </line>
+  <line x1="315" y1="80" x2="231" y2="116" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.67s" begin="2.61s" repeatCount="indefinite"/>
+  </line>
+  <line x1="168" y1="68" x2="315" y2="80" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="3.74s" begin="1.35s" repeatCount="indefinite"/>
+  </line>
+  <line x1="168" y1="68" x2="231" y2="116" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.15s" begin="2.65s" repeatCount="indefinite"/>
+  </line>
+  <line x1="1141" y1="52" x2="1175" y2="50" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.96s" begin="2.59s" repeatCount="indefinite"/>
+  </line>
+  <line x1="613" y1="234" x2="441" y2="274" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.34s" begin="1.25s" repeatCount="indefinite"/>
+  </line>
+  <line x1="477" y1="51" x2="441" y2="274" stroke="url(#lineGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.58s" begin="2.65s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="683" cy="97" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="683;673;683" dur="4.93s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="97;87;97" dur="6.2299999999999995s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.45s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="828" cy="44" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="828;836;828" dur="5.05s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="44;23;44" dur="6.35s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.53s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="168" cy="68" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="168;178;168" dur="6.44s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="68;84;68" dur="7.74s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.51s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="768" cy="49" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="768;758;768" dur="5.59s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="49;64;49" dur="6.89s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.91s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1059" cy="129" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="1059;1068;1059" dur="4.25s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="129;147;129" dur="5.55s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.97s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="96" cy="64" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="96;107;96" dur="5.36s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="64;54;64" dur="6.66s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.75s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="908" cy="234" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="908;899;908" dur="6.15s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="234;217;234" dur="7.45s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.30s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="163" cy="143" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="163;146;163" dur="6.46s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="143;134;143" dur="7.76s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.52s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="205" cy="237" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="205;223;205" dur="5.9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="237;250;237" dur="7.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.13s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="141" cy="83" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="141;162;141" dur="5.94s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="83;98;83" dur="7.24s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.16s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="477" cy="51" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="477;467;477" dur="6.96s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="51;70;51" dur="8.26s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.87s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="832" cy="45" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="832;811;832" dur="4.82s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="45;29;45" dur="6.12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.37s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="472" cy="43" r="3" fill="#00e5ff">
+    <animate attributeName="cx" values="472;459;472" dur="7.03s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="43;24;43" dur="8.33s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.92s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1160" cy="88" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="1160;1142;1160" dur="6.07s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="88;107;88" dur="7.37s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.25s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="613" cy="234" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="613;600;613" dur="6.55s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="234;250;234" dur="7.85s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.58s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="315" cy="80" r="3" fill="#00e5ff">
+    <animate attributeName="cx" values="315;295;315" dur="7.27s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="80;60;80" dur="8.57s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="5.09s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="651" cy="112" r="3" fill="#00e5ff">
+    <animate attributeName="cx" values="651;631;651" dur="5.42s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="112;123;112" dur="6.72s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.79s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="231" cy="116" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="231;239;231" dur="4.77s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="116;131;116" dur="6.069999999999999s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.34s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="782" cy="69" r="3" fill="#00e5ff">
+    <animate attributeName="cx" values="782;795;782" dur="7.82s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="69;89;69" dur="9.120000000000001s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="5.47s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1141" cy="52" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="1141;1132;1141" dur="5.88s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="52;43;52" dur="7.18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1175" cy="50" r="2" fill="#00e5ff">
+    <animate attributeName="cx" values="1175;1186;1175" dur="5.92s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="50;33;50" dur="7.22s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4.14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="441" cy="274" r="3" fill="#00e5ff">
+    <animate attributeName="cx" values="441;428;441" dur="7.64s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="274;253;274" dur="8.94s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="5.35s" repeatCount="indefinite"/>
+  </circle>
 
-<br/>
-
-<!-- TYPING ANIMATION -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00C9FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Full+Stack+Developer;MERN+Stack+Developer;React+Developer;Node.js+Developer;Open+Source+Learner;Always+Learning+New+Technologies" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- SOCIAL BADGES -->
-<p>
-  <a href="https://github.com/Rituraj2018">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/rituraj-singh-437472284">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Portfolio-00C9FF?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="mailto:youremail@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="https://www.instagram.com/rajsaurabhs">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-</p>
-
-<!-- VISITOR COUNTER -->
-<img src="https://komarev.com/ghpvc/?username=Rituraj2018&label=Profile%20Views&color=00c9ff&style=for-the-badge" alt="profile views"/>
-<img src="https://img.shields.io/github/followers/Rituraj2018?label=Followers&style=for-the-badge&color=2c5364" alt="followers"/>
-
-</div>
-
-<br/>
-
-## 🧑‍💻 About Me
-
-```yaml
-name: "Rituraj Singh"
-role: "Full Stack MERN Developer"
-current_focus: "Building scalable MERN Stack applications"
-current_project: "E-Mart — Full Stack MERN Ecommerce Website"
-learning: ["TypeScript", "Next.js", "Docker", "System Design"]
-philosophy: "Clean code, clean UI, and continuous growth"
-```
-
-- 🚀 Passionate about turning ideas into fast, scalable full-stack applications
-- 🛠️ Specializing in the **MERN Stack** — MongoDB, Express, React, Node.js
-- 🧩 A problem solver at heart who enjoys breaking down complex challenges
-- 🎨 Loves crafting clean, minimal, and delightful user interfaces
-- 📚 Constantly learning new tools and technologies to level up
-- 🌱 Currently diving deeper into **TypeScript, Next.js, Docker & System Design**
-
-<br/>
-
-## ⚡ Tech Stack
-
-<div align="center">
-
-### 🎨 Frontend
-<img src="https://skillicons.dev/icons?i=react,redux,html,css,js,ts,tailwind,bootstrap" />
-
-### ⚙️ Backend
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
-<br/>
-<img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-
-### 🗄️ Database
-<img src="https://skillicons.dev/icons?i=mongodb" />
-
-### 🧰 Tools
-<img src="https://skillicons.dev/icons?i=git,github,postman,vscode,docker" />
-<br/>
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB_Compass-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-
-</div>
-
-<br/>
-
-## 📊 GitHub Statistics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rituraj2018&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rituraj2018&layout=compact&theme=tokyonight&hide_border=true" width="35%" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rituraj2018&theme=tokyonight&hide_border=true" width="60%" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rituraj2018&theme=tokyo-night&hide_border=true" width="95%" />
-</div>
-
-<br/>
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🛒 E-Mart
-Full Stack MERN Ecommerce Website with cart, authentication, payments, and an admin dashboard.
-
-**Stack:** React · Redux · Node.js · Express · MongoDB · JWT · Cloudinary
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-00C9FF?style=for-the-badge&logo=vercel&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](#)
-
-</td>
-<td width="50%">
-
-### 💬 Chat Application
-Real-time chat app with instant messaging and user presence.
-
-**Stack:** React · Node.js · Express · MongoDB · Socket.io
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-00C9FF?style=for-the-badge&logo=vercel&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](#)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ✅ Task Manager
-Full-stack task and productivity manager with authentication and drag-and-drop boards.
-
-**Stack:** React · Node.js · Express · MongoDB · JWT
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-00C9FF?style=for-the-badge&logo=vercel&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](#)
-
-</td>
-<td width="50%">
-
-### 🎬 Movie App
-Movie discovery app with search, trailers, and personalized watchlists.
-
-**Stack:** React · REST API · Tailwind CSS
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-00C9FF?style=for-the-badge&logo=vercel&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](#)
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-## 💭 Random Dev Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</div>
-
-<br/>
-
-## 🎯 Fun Facts
-
-<div align="center">
-
-| ☕ Coffee | 💻 Coding | 📚 Learning | 🎵 Music |
-|:---:|:---:|:---:|:---:|
-| Fueled by coffee, one commit at a time | Turning ☕ into 💻 daily | Always exploring something new | Codes better with a good playlist on |
-
-</div>
-
-<br/>
-
-## 💖 Support My Work
-
-<div align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black"/>
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white"/>
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-
-### Thanks for visiting my profile ❤️
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c9ff,50:2c5364,100:0f2027&height=150&section=footer"/>
-
-</div>
+  <g>
+    <rect x="385.0" y="110.0" width="430" height="60" rx="14" fill="#0b1420" stroke="#00c9ff" stroke-width="1.5" opacity="0.92"/>
+    <text x="600.0" y="148.0" font-family="Fira Code, Consolas, monospace" font-size="22" fill="#e6f9ff" text-anchor="middle">
+      <tspan>👋 Hi there! I'm Rituraj</tspan>
+    </text>
+    <rect x="789.0" y="126.0" width="10" height="28" fill="#00e5ff">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
