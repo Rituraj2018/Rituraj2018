@@ -45,30 +45,146 @@
 
 <div align="center">
 
-### 🎨 Frontend
-<img src="https://skillicons.dev/icons?i=react,redux,html,css,js,ts,tailwind,bootstrap" />
+## 🎨 Frontend
 
-### ⚙️ Backend
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
-<br/>
-<img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+<table>
+<tr align="center">
+<td>
+<img src="https://skillicons.dev/icons?i=html" width="65"/><br>
+<b>HTML5</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=css" width="65"/><br>
+<b>CSS3</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=js" width="65"/><br>
+<b>JavaScript</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=ts" width="65"/><br>
+<b>TypeScript</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=react" width="65"/><br>
+<b>React</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=redux" width="65"/><br>
+<b>Redux</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=tailwind" width="65"/><br>
+<b>Tailwind CSS</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=bootstrap" width="65"/><br>
+<b>Bootstrap</b>
+</td>
+</tr>
+</table>
 
-### 🗄️ Database
-<img src="https://skillicons.dev/icons?i=mongodb" />
+---
 
-### 🧰 Tools
-<img src="https://skillicons.dev/icons?i=git,github,postman,vscode,docker" />
-<br/>
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB_Compass-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+## ⚙️ Backend
+
+<table>
+<tr align="center">
+<td>
+<img src="https://skillicons.dev/icons?i=nodejs" width="65"/><br>
+<b>Node.js</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=express" width="65"/><br>
+<b>Express.js</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=java" width="65"/><br>
+<b>Java</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=nestjs" width="65"/><br>
+<b>REST API</b>
+</td>
+<td>
+<img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens"/>
+<br><b>JWT</b>
+</td>
+<td>
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio"/>
+<br><b>Socket.IO</b>
+</td>
+</tr>
+</table>
+
+---
+
+## 🗄️ Database
+
+<table>
+<tr align="center">
+<td>
+<img src="https://skillicons.dev/icons?i=mongodb" width="65"/><br>
+<b>MongoDB</b>
+</td>
+<td>
+<img src="https://img.shields.io/badge/MongoDB_Compass-47A248?style=flat-square&logo=mongodb"/>
+<br><b>MongoDB Compass</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=postgres" width="65"/><br>
+<b>PostgreSQL</b>
+</td>
+</tr>
+</table>
+
+---
+
+## 🧰 Tools & Cloud
+
+<table>
+<tr align="center">
+<td>
+<img src="https://skillicons.dev/icons?i=git" width="65"/><br>
+<b>Git</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=github" width="65"/><br>
+<b>GitHub</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=vscode" width="65"/><br>
+<b>VS Code</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=postman" width="65"/><br>
+<b>Postman</b>
+</td>
+<td>
+<img src="https://skillicons.dev/icons?i=docker" width="65"/><br>
+<b>Docker</b>
+</td>
+<td>
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel"/>
+<br><b>Vercel</b>
+</td>
+<td>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render"/>
+<br><b>Render</b>
+</td>
+<td>
+<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary"/>
+<br><b>Cloudinary</b>
+</td>
+</tr>
+</table>
 
 </div>
+
 <br/>
+
+
+
 
 ## ⚡ Tech Stack
 
