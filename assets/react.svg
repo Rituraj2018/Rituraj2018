@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="100%" height="100%">
+  <!-- Defs for premium effects -->
+  <defs>
+    <!-- Background blur filter for glowing blobs -->
+    <filter id="bgBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22" />
+    </filter>
+
+    <!-- Card shadow -->
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Soft neon glow for text -->
+    <filter id="textGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Canvas Radial Background -->
+    <radialGradient id="canvasBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0a0d16" />
+      <stop offset="100%" stop-color="#020204" />
+    </radialGradient>
+
+    <!-- Glassmorphic Card Background -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d111a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#05060b" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Rotating Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(0 0.5 0.5)">
+      <animateTransform 
+        attributeName="gradientTransform" 
+        type="rotate" 
+        from="0 0.5 0.5" 
+        to="360 0.5 0.5" 
+        dur="6s" 
+        repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="35%" stop-color="#61DAFB"/>
+      <stop offset="70%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+
+    <!-- Shiny diagonal line gradient -->
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glossy reflection static gradient -->
+    <linearGradient id="reflectionGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Logo Glow -->
+    <radialGradient id="logoGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Mask for card inner boundaries -->
+    <mask id="cardMask">
+      <rect x="10" y="10" width="160" height="160" rx="20" fill="#ffffff" />
+    </mask>
+  </defs>
+
+  <!-- 1. Canvas Background -->
+  <rect width="180" height="180" rx="22" fill="url(#canvasBg)" />
+
+  <!-- 2. Ambient Background Glow Blobs -->
+  <circle cx="35" cy="35" r="55" fill="#00f2fe" opacity="0.12" filter="url(#bgBlur)">
+    <animate attributeName="opacity" values="0.08;0.16;0.08" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="145" cy="145" r="55" fill="#a855f7" opacity="0.12" filter="url(#bgBlur)">
+    <animate attributeName="opacity" values="0.16;0.08;0.16" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 3. Floating Container for the Entire Card -->
+  <g>
+    <animateTransform 
+      attributeName="transform" 
+      type="translate" 
+      values="0 0; 0 -4; 0 0" 
+      keyTimes="0; 0.5; 1"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+      calcMode="spline"
+      dur="6s" 
+      repeatCount="indefinite" />
+
+    <!-- Card Base (Shadow + Glassmorphic background + Glowing Animated Border) -->
+    <rect x="10" y="10" width="160" height="160" rx="20" 
+          fill="url(#cardBg)" 
+          stroke="url(#borderGrad)" 
+          stroke-width="1.25" 
+          filter="url(#cardShadow)" />
+
+    <!-- Card Masked Elements (Grid, HUD, Shine, Particles) -->
+    <g mask="url(#cardMask)">
+      <!-- Soft Cyber Grid -->
+      <path d="M 10 30 H 170 M 10 50 H 170 M 10 70 H 170 M 10 90 H 170 M 10 110 H 170 M 10 130 H 170 M 10 150 H 170 M 30 10 V 170 M 50 10 V 170 M 70 10 V 170 M 90 10 V 170 M 110 10 V 170 M 130 10 V 170 M 150 10 V 170" 
+            stroke="#ffffff" stroke-width="0.5" opacity="0.04" />
+      
+      <!-- Tech HUD Circles Behind Logo -->
+      <circle cx="90" cy="75" r="48" fill="none" stroke="#61DAFB" stroke-width="0.5" opacity="0.08" stroke-dasharray="3 6"/>
+      <circle cx="90" cy="75" r="58" fill="none" stroke="#a855f7" stroke-width="0.5" opacity="0.05" stroke-dasharray="10 5"/>
+
+      <!-- Glowing Particles inside Card -->
+      <g opacity="0.7">
+        <circle cx="35" cy="45" r="1" fill="#00f2fe">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="145" cy="40" r="0.8" fill="#a855f7">
+          <animate attributeName="opacity" values="0.1;0.9;0.1" dur="4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="40" cy="120" r="1.2" fill="#00f2fe">
+          <animate attributeName="opacity" values="0.3;0.8;0.3" dur="5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="140" cy="125" r="1" fill="#a855f7">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="125" cy="50" r="0.8" fill="#3b82f6">
+          <animate attributeName="opacity" values="0.1;0.7;0.1" dur="4.5s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <!-- Radial Glow Core behind Logo -->
+      <circle cx="90" cy="75" r="32" fill="url(#logoGlow)" />
+
+      <!-- Rotating & Breathing React Logo Group -->
+      <g transform="translate(90, 75)">
+        <g>
+          <animateTransform 
+            attributeName="transform" 
+            type="scale" 
+            values="1; 1.06; 1" 
+            keyTimes="0; 0.5; 1"
+            keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+            calcMode="spline"
+            dur="4s" 
+            repeatCount="indefinite" />
+          <g>
+            <animateTransform 
+              attributeName="transform" 
+              type="rotate" 
+              from="0" 
+              to="360" 
+              dur="16s" 
+              repeatCount="indefinite" />
+            <!-- React Logo Vector -->
+            <circle cx="0" cy="0" r="4.2" fill="#61DAFB"/>
+            <g stroke="#61DAFB" stroke-width="1.5" fill="none">
+              <ellipse rx="24" ry="9.2" />
+              <ellipse rx="24" ry="9.2" transform="rotate(60)" />
+              <ellipse rx="24" ry="9.2" transform="rotate(120)" />
+            </g>
+          </g>
+        </g>
+      </g>
+
+      <!-- Glass Static Reflection overlay -->
+      <path d="M 10 10 L 170 10 L 170 75 L 10 110 Z" fill="url(#reflectionGrad)" opacity="0.08"/>
+
+      <!-- Animated Glass Shine Sweep -->
+      <rect x="-150" y="-50" width="50" height="300" fill="url(#shineGrad)" transform="rotate(30)">
+        <animate attributeName="x" values="-220; 260" dur="5s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- Card Text -->
+    <!-- Glow Backing Text -->
+    <text x="90" y="142" 
+          font-family="'Inter', 'Poppins', 'Segoe UI', sans-serif" 
+          font-size="12" 
+          font-weight="600" 
+          fill="#61DAFB" 
+          text-anchor="middle" 
+          letter-spacing="1.5"
+          filter="url(#textGlow)"
+          opacity="0.8">REACT</text>
+    <!-- Crisp Foreground Text -->
+    <text x="90" y="142" 
+          font-family="'Inter', 'Poppins', 'Segoe UI', sans-serif" 
+          font-size="12" 
+          font-weight="600" 
+          fill="#ffffff" 
+          text-anchor="middle" 
+          letter-spacing="1.5">REACT</text>
+  </g>
+</svg>

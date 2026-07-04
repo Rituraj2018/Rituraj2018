@@ -3,7 +3,7 @@
 <!-- ANIMATED PARTICLE-NETWORK BANNER -->
 <!-- Upload banner.svg to your profile repo (e.g. assets/banner.svg), then swap the src below
      for: https://raw.githubusercontent.com/Rituraj2018/Rituraj2018/main/assets/banner.svg -->
-<img width="100%" src="assets/banner.svg" alt="Rituraj Singh banner"/>
+<img src="./assets/banner.svg" width="100%" alt="Rituraj Singh banner"/>
 
 <br/>
 
@@ -63,95 +63,45 @@ philosophy: "Clean code, clean UI, and continuous growth"
 - 🌱 Currently diving deeper into **TypeScript, Next.js, Docker & System Design**
 
 <br/>
-## ⚡ Tech Stack
-
-<div align="center">
-
-### 🎨 Frontend
-
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,redux,nextjs,tailwind,bootstrap,vite" />
-</p>
-
----
-
-### ⚙️ Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs" />
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/REST_API-00C9FF?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens"/>
-<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio"/>
-</p>
-
----
-
-### 🗄️ Database
-
-<p>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" />
-</p>
-
----
-
-### ☁️ Cloud & DevOps
-
-<p>
-<img src="https://skillicons.dev/icons?i=docker,nginx,vercel,netlify,render" />
-</p>
-
----
-
-### 🧰 Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux" />
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB_Compass-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-</p>
-
----
-
-### 📚 Currently Learning
-
-<p>
-<img src="https://skillicons.dev/icons?i=typescript,nextjs,docker,aws,firebase" />
-</p>
-
-</div>
 
 ## ⚡ Tech Stack
 
 <div align="center">
 
-### 🎨 Frontend
-<img src="https://skillicons.dev/icons?i=react,redux,html,css,js,ts,tailwind,bootstrap" />
+<img src="./assets/html5.svg" width="170" alt="HTML5"/>
+<img src="./assets/css3.svg" width="170" alt="CSS3"/>
+<img src="./assets/javascript.svg" width="170" alt="JavaScript"/>
+<img src="./assets/typescript.svg" width="170" alt="TypeScript"/>
 
-### ⚙️ Backend
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
-<br/>
-<img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+<img src="./assets/react.svg" width="170" alt="React"/>
+<img src="./assets/redux.svg" width="170" alt="Redux"/>
+<img src="./assets/nextjs.svg" width="170" alt="Next.js"/>
+<img src="./assets/tailwind.svg" width="170" alt="Tailwind CSS"/>
 
-### 🗄️ Database
-<img src="https://skillicons.dev/icons?i=mongodb" />
+<img src="./assets/bootstrap.svg" width="170" alt="Bootstrap"/>
+<img src="./assets/nodejs.svg" width="170" alt="Node.js"/>
+<img src="./assets/express.svg" width="170" alt="Express.js"/>
+<img src="./assets/java.svg" width="170" alt="Java"/>
 
-### 🧰 Tools
-<img src="https://skillicons.dev/icons?i=git,github,postman,vscode,docker" />
-<br/>
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB_Compass-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="./assets/socketio.svg" width="170" alt="Socket.IO"/>
+<img src="./assets/restapi.svg" width="170" alt="REST API"/>
+<img src="./assets/jwt.svg" width="170" alt="JWT"/>
+<img src="./assets/mongodb.svg" width="170" alt="MongoDB"/>
+
+<img src="./assets/mongodb-compass.svg" width="170" alt="MongoDB Compass"/>
+<img src="./assets/mysql.svg" width="170" alt="MySQL"/>
+<img src="./assets/postgresql.svg" width="170" alt="PostgreSQL"/>
+<img src="./assets/docker.svg" width="170" alt="Docker"/>
+
+<img src="./assets/nginx.svg" width="170" alt="Nginx"/>
+<img src="./assets/git.svg" width="170" alt="Git"/>
+<img src="./assets/github.svg" width="170" alt="GitHub"/>
+<img src="./assets/vscode.svg" width="170" alt="VS Code"/>
+
+<img src="./assets/postman.svg" width="170" alt="Postman"/>
+<img src="./assets/cloudinary.svg" width="170" alt="Cloudinary"/>
+<img src="./assets/render.svg" width="170" alt="Render"/>
+<img src="./assets/vercel.svg" width="170" alt="Vercel"/>
 
 </div>
 
