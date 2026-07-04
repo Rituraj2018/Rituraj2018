@@ -41,15 +41,33 @@
 </div>
 
 <br/>
+## ⚡ Tech Stack
 
+<div align="center">
 
-- 🚀 Passionate about turning ideas into fast, scalable full-stack applications
-- 🛠️ Specializing in the **MERN Stack** — MongoDB, Express, React, Node.js
-- 🧩 A problem solver at heart who enjoys breaking down complex challenges
-- 🎨 Loves crafting clean, minimal, and delightful user interfaces
-- 📚 Constantly learning new tools and technologies to level up
-- 🌱 Currently diving deeper into **TypeScript, Next.js, Docker & System Design**
+### 🎨 Frontend
+<img src="https://skillicons.dev/icons?i=react,redux,html,css,js,ts,tailwind,bootstrap" />
 
+### ⚙️ Backend
+<img src="https://skillicons.dev/icons?i=nodejs,express" />
+<br/>
+<img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+
+### 🗄️ Database
+<img src="https://skillicons.dev/icons?i=mongodb" />
+
+### 🧰 Tools
+<img src="https://skillicons.dev/icons?i=git,github,postman,vscode,docker" />
+<br/>
+<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB_Compass-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+
+</div>
 <br/>
 
 ## ⚡ Tech Stack
@@ -211,6 +229,15 @@
 
 <br/>
 
+
+- 🚀 Passionate about turning ideas into fast, scalable full-stack applications
+- 🛠️ Specializing in the **MERN Stack** — MongoDB, Express, React, Node.js
+- 🧩 A problem solver at heart who enjoys breaking down complex challenges
+- 🎨 Loves crafting clean, minimal, and delightful user interfaces
+- 📚 Constantly learning new tools and technologies to level up
+- 🌱 Currently diving deeper into **TypeScript, Next.js, Docker & System Design**
+
+<br/>
 ## 📊 GitHub Statistics
 
 <div align="center">
