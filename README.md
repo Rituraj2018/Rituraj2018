@@ -8,7 +8,7 @@
 <br/>
 <!-- TYPING ANIMATION -->
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=000080&background=000000&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Full+Stack+Developer;MERN+Stack+Developer;React+Developer;Node.js+Developer;Open+Source+Learner;Always+Learning+New+Technologies" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=000000&background=FFFFFF&center=true&vCenter=true&repeat=true&width=700&height=60&lines=Full+Stack+Developer;MERN+Stack+Developer;React+Developer;Node.js+Developer;Open+Source+Learner;Always+Learning+New+Technologies" alt="Typing SVG" />
 </a>
 <br/>
 
