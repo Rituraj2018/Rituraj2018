@@ -63,6 +63,69 @@ philosophy: "Clean code, clean UI, and continuous growth"
 - 🌱 Currently diving deeper into **TypeScript, Next.js, Docker & System Design**
 
 <br/>
+## ⚡ Tech Stack
+
+<div align="center">
+
+### 🎨 Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,redux,nextjs,tailwind,bootstrap,vite" />
+</p>
+
+---
+
+### ⚙️ Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs" />
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/REST_API-00C9FF?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens"/>
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio"/>
+</p>
+
+---
+
+### 🗄️ Database
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" />
+</p>
+
+---
+
+### ☁️ Cloud & DevOps
+
+<p>
+<img src="https://skillicons.dev/icons?i=docker,nginx,vercel,netlify,render" />
+</p>
+
+---
+
+### 🧰 Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux" />
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
+<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB_Compass-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+</p>
+
+---
+
+### 📚 Currently Learning
+
+<p>
+<img src="https://skillicons.dev/icons?i=typescript,nextjs,docker,aws,firebase" />
+</p>
+
+</div>
 
 ## ⚡ Tech Stack
 
